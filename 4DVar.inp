@@ -1,0 +1,18 @@
+2                  !--- Mode (1:TLM&ADJ Check, 2:4DV, 3:4DV restart)
+2                  !--- Problem 1:Karman vortex, 2:Vortex advection
+1 50               !--- Number of 4DV cycles, iteration on each cycle
+0.0                !--- Error variance of pseudo measurement
+0.1                !--- Measurement error variance
+0.0                !--- Coefficient of background term
+2 2 16             !--- Every iskip & jskip & tskip for measuremnt 
+-4.0d0 0.0d0       !--- Left and right of measurement area
+-1.0d0 1.0d0       !--- Bottom and top of measurement area
+------------------------------------------------------------------------------
+150 400            !--- Number of time step
+100                !--- Reynolds number 
+80                 !--- Number of mesh: jmax (imax x jmax, imax = 3*jmax)
+0.02               !--- time step
+1                  !--- 0:initial, 1:restart
+1                  !--- 0:No output to screen,1:otherwise
+10                 !--- Output plot3d interval
+20                 !--- Output history interval
