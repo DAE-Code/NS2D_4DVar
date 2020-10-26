@@ -6,7 +6,7 @@
 
 環境が構築済みの場合には以下のようにソースコードの入手およびコンパイルを行います．
 ```
-> git clone  https://github.com/DAE-Code/NS2D_4DVar
+> git clone https://github.com/DAE-Code/NS2D_4DVar
 > cd ./NS2D_4DVar/src
 > make
 ```
