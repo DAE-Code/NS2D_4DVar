@@ -3,7 +3,7 @@
 !   4D Variational Method (4D-Var) coupled with 2D Navier-Stokes code 
 !   prepared for the book "Data Assimilation Fluid Science"
 !
-!   Further information is avairable on: https://github.com/DAE-Code
+!   More information on: https://github.com/DAE-Code
 !
 !-----------------------------------------------------------------------
 program NS2D_4DVar
