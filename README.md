@@ -6,9 +6,9 @@
 
 環境が構築済みの場合には以下のようにソースコードの入手およびコンパイルを行います．
 ```
-> git clone https://github.com/DAE-Code/NS2D_4DVar
-> cd ./NS2D_4DVar/src
-> make
+$ git clone https://github.com/DAE-Code/NS2D_4DVar
+$ cd ./NS2D_4DVar/src
+$ make
 ```
 計算結果はグラフやコンター図で確認できます．計算結果の可視化については[こちら](https://github.com/DAE-Code/NS2D_DataAssimilation)をご参照ください．計算からグラフ化までを一括して処理できるスクリプトを用意しています．
 
