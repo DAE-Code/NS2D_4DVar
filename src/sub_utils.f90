@@ -28,7 +28,7 @@ end subroutine sub_energy
 !
 !
 !-----------------------------------------------------------------------
-! Calculate maximum value of local CFL number
+! Define time step size based on CFL number
 !-----------------------------------------------------------------------
 subroutine sub_timestep(dt)
 !-----------------------------------------------------------------------
